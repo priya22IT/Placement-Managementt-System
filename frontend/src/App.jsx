@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "http://placement-managementt-system.onrender.com/api";
 
 const demoJobs = [
   { _id:"job1", title:"Python Developer Intern", company:"TechNova Solutions", location:"Mumbai", type:"Internship", qualification:"B.Sc IT / BCA / B.Tech", skills:"Python, Django, SQL", experience:"Fresher", salary:"₹15,000/month", description:"Work with the development team to build web applications and APIs.", lastDate:"30/09/2026" },
